@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Light aqua background */
+    color: #333;
+}
+
+header {
+    background-color: #008080; /* Teal header */
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: #008080; /* Teal hero section */
+    text-align: center;
+    padding: 2em 0;
+    color: #fff;
+}
+
+.hero .btn {
+    background-color: #ffcc00; /* Yellow button */
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#solutions h2 {
+    color: #008080; /* Teal section header */
+}
+
+.solution {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #008080; /* Teal footer */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+}
+
+form input, form textarea {
+    width: 300px; /* Smaller width for input boxes */
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Rounded input boxes */
+}
+
+form textarea {
+    height: 100px; /* Adjust height for textarea */
+}
